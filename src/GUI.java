@@ -50,7 +50,7 @@ public class GUI {
                 text = text.trim();
         
                 // Display the translation
-                output.setText("in development");
+                output.setText(converter.convert(text));
             }
         });
         flipButton.addActionListener(new ActionListener() {
