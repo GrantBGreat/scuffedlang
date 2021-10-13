@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.*;
 public class GUI {
     Converter converter;
     public GUI(Converter converter) {
@@ -7,10 +8,12 @@ public class GUI {
     }
 
     public void start() {
+        // create base JFrame
         JFrame frame = new JFrame("Scuffedlang Translator");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(1024,1024);
+        frame.setSize(600, 200);
         frame.setLayout(new FlowLayout());
+
 
         // create input box
         JTextArea input = new JTextArea(5, 20);
@@ -30,11 +33,48 @@ public class GUI {
 
         frame.add(buttons);
 
+
         // create output box
         JTextArea output = new JTextArea("Translation will appear here...", 5, 20);
         output.setLineWrap(true);
         output.setEditable(false);
         frame.add(output);
+
+
+        // listeners for buttons
+        convertButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Get the English they entered
+                String text = input.getText();
+                text = text.trim();
+        
+                // Display the translation
+                output.setText("in development");
+            }
+        });
+        flipButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Get new input text
+                String inText = output.getText();
+                inText = inText.trim();
+                if (inText.equals("Translation will appear here...")) inText = "";
+
+                // Get new output text
+                String outText = input.getText();
+                outText = outText.trim();
+                if (outText.equals("")) outText = "Translation will appear here...";
+        
+                // Flip the input and output text, and change converter mode
+                output.setText(outText);
+                input.setText(inText);
+
+                converter.flip();
+            }
+        });
+        
+
 
         frame.setVisible(true);
     }
