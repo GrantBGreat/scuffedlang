@@ -1,4 +1,4 @@
-package main.java.scuffedlang;
+package scuffedlang;
 public class Converter {
     private static final String BASE = "qwertyuiopasdfghjklzxcvbnm1234567890";
     private static final String SCUFFED = "poiuytrewqlkjhgfdsamnbvcxz0987654321";
