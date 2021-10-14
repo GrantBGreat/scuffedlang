@@ -5,7 +5,7 @@ It's done in java cuz I felt like it.
 
 
 ### To run
-1) (download jar)[https://github.com/GrantBGreat/scuffedlang/releases]
+1) [download jar](https://github.com/GrantBGreat/scuffedlang/releases)
 2) run
 3) ta da
 
