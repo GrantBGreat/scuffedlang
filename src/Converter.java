@@ -20,14 +20,18 @@ public class Converter {
             // translate the char
             if (!flipped) {
                 atIndex = BASE.indexOf(s.toLowerCase());
-                s = SCUFFED.substring(atIndex, atIndex + 1);
+                if (atIndex != -1) {
+                    s = SCUFFED.substring(atIndex, atIndex + 1);
+                }
             } else {
                 atIndex = SCUFFED.indexOf(s.toLowerCase());
-                s = BASE.substring(atIndex, atIndex + 1);
+                if (atIndex != -1) {
+                    s = BASE.substring(atIndex, atIndex + 1);
+                }
             }
 
             // check if the char was uppercase, and if it was then make the new char uppercase
-            if (uppercase) s.toUpperCase();
+            if (uppercase) s = s.toUpperCase();
 
             // add char to text
             outText += s;
