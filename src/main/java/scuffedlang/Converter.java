@@ -10,6 +10,9 @@ public class Converter {
     }
 
     public String convert(String inText) {
+        // if there is no text, then return default text:
+        if (inText.length() == 0) return "Translation will appear here...";
+
         int atIndex = 0;
         String outText = "";
         Boolean uppercase = false;
