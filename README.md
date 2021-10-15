@@ -11,6 +11,6 @@ It's done in java cuz I felt like it.
 
 ### To build
 1) `mvn compile`
-2) `mvn build`
+2) `mvn package`
 3) output is [`/target/scuffedlang-{version}.jar`](https://github.com/GrantBGreat/scuffedlang/tree/main/target)
 4) ta da
