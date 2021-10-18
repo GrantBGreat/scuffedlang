@@ -20,6 +20,8 @@ Scuffedlang origonated from a fun 5 minute project producing [keyFlip.exe](https
 
 
 # Installation
+First, download the latest release [here](https://github.com/GrantBGreat/scuffedlang/releases/latest).
+
 For windows an exe file is supplied, for other systems there is also a java jar file that can be run via double-click or via terminal by running `java -jar scuffedlang-{version}.jar`.
 
 This program requires java 11 in order to run correctly.
