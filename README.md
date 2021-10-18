@@ -8,6 +8,17 @@ It's done in java cuz I felt like it.
 Scuffedlang origonated from a fun 5 minute project producing [keyFlip.exe](https://gist.github.com/GrantBGreat/b897d967c1c171c018aae2c38dce11cb). The program flips all of the keys on a users keyboard around the center. For example the letter `A` translates to `L`, `S` to `K`, and so on. This produced the world renound language of Scuffedlang!
 
 
+# Reviews
+### James:
+⭐⭐⭐⭐⭐ "Thank you for this username generator, I use it for everything now!"
+
+### Matthew:
+⭐⭐⭐⭐ "ok"
+
+### Sara
+⭐ "I AM NOT GOING TO DOWNLOAD YOUR VIRUS"
+
+
 # Installation
 For windows an exe file is supplied, for other systems there is also a java jar file that can be run via double-click or via terminal by running `java -jar scuffedlang-{version}.jar`.
 
