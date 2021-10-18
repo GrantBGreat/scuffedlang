@@ -1,7 +1,11 @@
-# scuffedlang
+# Scuffedlang
 Translate to and from the epic language of scuffedlang
 
 It's done in java cuz I felt like it.
+
+
+# What is Scuffedlang?
+Scuffedlang origonated from a fun 5 minute project producing [keyFlip.exe](https://gist.github.com/GrantBGreat/b897d967c1c171c018aae2c38dce11cb). The program flips all of the keys on a users keyboard around the center. For example the letter `A` translates to `L`, `S` to `K`, and so on. This produced the world renound language of Scuffedlang!
 
 
 # Installation
