@@ -12,6 +12,12 @@ Scuffedlang origonated from a fun 5 minute project producing [keyFlip.exe](https
 ### James:
 ⭐⭐⭐⭐⭐ "Thank you for this username generator, I use it for everything now!"
 
+### Gregory:
+⭐⭐⭐⭐⭐ "I thought my typing speed would never go above 100 wpm until i found scuffedlang"
+
+### Landon:
+⭐⭐⭐⭐⭐ (No comment.)
+
 ### Matthew:
 ⭐⭐⭐⭐ "ok"
 
