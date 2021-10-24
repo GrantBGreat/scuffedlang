@@ -23,8 +23,8 @@ Scuffedlang origonated from a fun 5 minute project producing [keyFlip.exe](https
 
 ### Stefano:
 ⭐⭐⭐⭐ "I like it!"
-
 <br>
+
 # Installation
 First, download the latest release [here](https://github.com/GrantBGreat/scuffedlang/releases/latest).
 
