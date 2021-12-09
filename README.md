@@ -1,4 +1,4 @@
-![Issues](https://img.shields.io/github/issues/GrantBGreat/scuffedlang) &nbsp; ![License](https://img.shields.io/github/license/GrantBGreat/scuffedlang) &nbsp; ![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGrantBGreat%2Fscuffedlang)
+[![Issues](https://img.shields.io/github/issues/GrantBGreat/scuffedlang)](https://github.com/GrantBGreat/scuffedlang/issues) &nbsp; [![License](https://img.shields.io/github/license/GrantBGreat/scuffedlang)](https://github.com/GrantBGreat/scuffedlang/blob/main/LICENSE) &nbsp; [![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGrantBGreat%2Fscuffedlang)](https://twitter.com/intent/tweet?text=Boggle%20your%20mind%20with%20this%20crazy%20language%21&url=https%3A%2F%2Fgithub.com%2FGrantBGreat%2Fscuffedlang)
 # Scuffedlang
 Translate to and from the epic language of scuffedlang
 
